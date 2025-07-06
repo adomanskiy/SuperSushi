@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, serif;
+    background-color: #020303;
+
+}
+
+.header {
+
+    padding: 30px 0;
+
+}
+
+.header-logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 56px;
+}
+
+.header-name {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    margin-left: 10px;
+
+}
+
+
+.menu {
+    margin-left: 281px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 60px 0 0;
+}
+
+.menu ul li a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    color: rgb(253, 239, 213);
+    line-height: 1.2;
+    text-decoration: none;
+
+}
+
+.menu ul li a:hover {
+    color: #ffaf18;
+    border-bottom: 2px solid #ffaf18;
+    padding-bottom: 5px;
+}
+
+.main {
+    padding: 133px 0 100px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+
+.main .container {
+    font-size: 0;
+
+}
+
+.main-info {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 570px;
+
+
+}
+
+.main-image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    max-width: 600px;
+    margin-top: 80px;
+
+
+}
+
+.main h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    margin-bottom: 75px;
+
+}
+
+.highlight {
+    color: #ffaf18;
+}
+
+.main .container {
+    font-size: 0;
+}
+
+.about {
+    background-color: #b99d7f;
+    padding: 130px 0 143px 0;
+}
+
+
+.about-item {
+    font-size: 0;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.about-items {
+    max-width: 540px;
+
+}
+
+.about-item-image {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.about-item-text {
+
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    line-height: 1.471;
+    width: 220px;
+}
+
+
+.button-main {
+    margin-top: 92px;
+    width: 224px;
+    text-align: center;
+    padding: 22px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffaf18;
+    font-size: 17px;
+    color: #020303;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.button-main:hover {
+    box-shadow: 0 10px 10px rgb(255, 175, 24, 0.3);
+}
+
+.bar {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.items-bar {
+    margin-left: -12px;
+    margin-right: -12px;
+    font-size: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 240px;
+
+
+}
+
+.bar .item:first-child {
+    box-shadow: inset 0 0 0 5px #ffaf18;
+}
+
+.bar .item:last-child {
+    box-shadow: inset 0 0 0 5px #ffaf18;
+}
+
+.item {
+    background-color: white;
+    width: 282px;
+    height: 354px;
+    margin: 12px;
+    text-align: center;
+    padding: 10px 0 15px 0;
+}
+
+.item:hover {
+    box-shadow: 0 0 0 1px #FFFFFFFF;
+}
+
+.bar img {
+    margin-bottom: 30px;
+}
+
+
+.bar h2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.571;
+    text-align: center;
+    margin: 100px 0 60px 0;
+}
+
+.bar h3 {
+
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 13px;
+
+
+}
+
+.bar p {
+    margin-bottom: 35px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    text-align: center;
+    width: 242px;
+    height: 53px;
+
+}
+
+
+.action-bar {
+
+    text-align: center;
+    padding: 18px 0;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffaf18;
+    font-size: 17px;
+    color: #020303;
+    font-weight: bold;
+    cursor: pointer;
+    width: 242px;
+    height: 50px;
+
+}
+
+.bar .action-bar:hover {
+    box-shadow: 0 5px 5px rgb(255, 175, 24, 0.3);
+}
+
+.cook {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cook .container {
+    font-size: 0;
+}
+
+.cook-info {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 385px;
+    margin-bottom: 67px;
+
+}
+
+.chief {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 96px;
+    max-width: 719px;
+
+}
+
+.cook h2 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.286;
+
+}
+
+.cook-info h2 {
+    margin-bottom: 60px;
+
+}
+
+.new-line {
+    display: block;
+}
+.cook-info .cook-text {
+    color: white;
+    margin-bottom: 100px;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 346px;
+
+
+}
+
+.cook-info-read h2 {
+
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+.cook-icon {
+    display: flex;
+
+}
+
+
+
+
+
+.cook-items a {
+    width: 55px;
+    height: 55px;
+    background: white;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.cook-items a:hover {
+    box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+}
+
+.cook-items a:active {
+    background-color: #ffaf18;
+}
+
+
+.cook-items a:visited {
+    background: gray;
+}
+
+
+
+.footer {
+    padding: 30px 0;
+    background-color: #000;
+}
+
+.rights {
+
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+    margin-left: 420px;
+}
+
